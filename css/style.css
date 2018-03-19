@@ -1,0 +1,180 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+/*	font-family: 'Kavivanar', cursive;
+*/}
+
+.container {
+	margin: auto;
+	width: 80%;
+	overflow: hidden;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+/* Header */
+
+header {
+	background-color: #74AFAD;
+	min-height: 80%;
+	padding-top: 50px;
+	border-bottom: 1px solid #ccc;
+
+}
+
+header #brand {
+	float: left;
+}
+
+header h1 {
+	font-size: 40px;
+	margin-bottom: 20px;
+	margin-top: -5px;
+	font-family: 'Libre Baskerville', serif;
+
+}
+
+header .highlight {
+	color: #DF3D82;
+}
+
+header .brown {
+	color: #404040;
+}
+
+header .brown:hover {
+	color: white;
+}
+
+header nav {
+	float: right;
+/*	border: 2px solid #ccc; 
+*/	margin-bottom: 10px;
+}
+
+header ul {
+	text-align: center;
+/*	margin-bottom: 30px;
+*/	padding: 10px;
+}
+
+header a {
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+}
+
+header li {
+	list-style-type: none;
+	display: inline;
+	margin: 20px;
+}
+
+header a:hover{
+	color: grey;
+	font-weight: bold;
+}
+
+header .active a{
+	color: #DF3D82;
+}
+
+
+/*Image
+*/
+
+div.myimage {
+	background-color: #f0f5f5;
+	text-align: center;
+	margin-top: 20px;
+	float: right;
+/*	border: 1px solid #ccc;
+*/	margin-bottom: 5px;
+	margin-top: 38px;
+}
+
+div.myimage img {
+	width: 100%;
+	height: auto;
+}
+
+/*Content */
+
+article#main {
+	background-color: #f0f5f5;
+	padding: 20px;
+	float: left;
+	width: 50%;
+	height: 550px;
+	font-size: 20px;
+	font-family: 'Abel', sans-serif;
+	text-align: center;
+	overflow: scroll;
+}
+
+article#main h1 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+/*Sidebar*/
+
+aside#sidebar {
+	float: right;
+	width: 35%;
+	margin-top: -6px;
+}
+
+.posts {
+	background-color: #74AFAD;
+	font-size: 20px;
+	font-family: 'Dosis', sans-serif;
+
+}
+
+.posts h3{
+	text-align: center;	
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.posts li {
+	list-style-type: none;
+	padding: 5px 20px; 
+	text-align: center;
+}
+
+.posts a {
+	color: #404040;
+}
+
+.posts a:hover {
+	color: white;
+}
+
+
+/*Footer*/
+footer {
+	background-color: #74AFAD;
+	font-family: 'Lora', serif;
+	font-size: 16px;
+	margin-top: 30px;
+	padding: 10px;
+	text-align: center;
+}
+
+/*Responsivity*/
+
+@media (max-width: 500px) {
+    header, header #brand, header nav, header nav li{
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+
+
+
